@@ -1,0 +1,8 @@
+{
+  "name": "Qoutes-App",
+  "app_id": "867c50ea",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
