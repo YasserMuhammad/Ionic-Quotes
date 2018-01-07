@@ -13,13 +13,18 @@
 </ion-header>
 
 
-<ion-content padding>
-<h3 text-center>Select Your favorite Quote</h3>
-<ion-list >
-  <button ion-item *ngFor="let qoute of quoteCollection" >
+<ion-content>
+<!-- <h3 text-center>Select Your favorite Quote</h3> -->
+<!-- <ion-list >
+  <button ion-item >
     <ion-icon name="{{qoute.icon}}" item-left></ion-icon>
     <h2>{{qoute.category | uppercase}}</h2>
     <p>{{qoute.quotes.length}} Quotes</p>
   </button> 
-</ion-list>
+</ion-list> -->
+<ion-card *ngFor="let qoute of quoteCollection" [navPush]="quotesPage" [navParams]="qoute">
+  <img src="../../assets/imgs/{{qoute.image}}"/>
+  <div class="card-title">{{qoute.category | uppercase}}</div>
+  <div class="card-subtitle">{{qoute.quotes.length}} Quotes</div>
+</ion-card>
 </ion-content>

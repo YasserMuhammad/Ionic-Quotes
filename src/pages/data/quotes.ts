@@ -18,7 +18,8 @@ export default [
         text: 'What great thing would you attempt if you knew you could not fail?'
       }
     ],
-    icon: 'brush'
+    icon: 'brush',
+    image:'card-sf.png'
   },
   {
     category: 'ability',
@@ -34,7 +35,8 @@ export default [
         text: 'Education is the ability to listen to almost anything without losing your temper.'
       }
     ],
-    icon: 'bicycle'
+    icon: 'bicycle',
+    image:'card-saopaolo.png'
   },
   {
     category: 'enthusiasm',
@@ -50,7 +52,8 @@ export default [
         text: 'Enthusiasm releases the drive to carry you over obstacles and adds significance to all you do.'
       }
     ],
-    icon: 'battery-charging'
+    icon: 'battery-charging',
+    image:'card-amsterdam.png'
   },
   {
     category: 'motivational',
@@ -66,6 +69,7 @@ export default [
         text: 'I was motivated to be different in part because I was different.'
       }
     ],
-    icon: 'body'
+    icon: 'body',
+    image:'card-madison.png'
   }
 ];
