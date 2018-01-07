@@ -1,7 +1,7 @@
 export default [
   {
     category: 'inspirational',
-    quotes: [
+    quoteObj: [
       {
         id: '1',
         person: 'Theodore Roosevelt',
@@ -23,7 +23,7 @@ export default [
   },
   {
     category: 'ability',
-    quotes: [
+    quoteObj: [
       {
         id: '4',
         person: 'John Wooden',
@@ -40,7 +40,7 @@ export default [
   },
   {
     category: 'enthusiasm',
-    quotes: [
+    quoteObj: [
       {
         id: '6',
         person: 'Benjamin Disraeli',
@@ -57,7 +57,7 @@ export default [
   },
   {
     category: 'motivational',
-    quotes: [
+    quoteObj: [
       {
         id: '8',
         person: 'Jim Rohn',
