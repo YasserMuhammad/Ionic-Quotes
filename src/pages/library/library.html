@@ -25,6 +25,6 @@
 <ion-card *ngFor="let qoute of quoteCollection" [navPush]="quotesPage" [navParams]="qoute">
   <img src="../../assets/imgs/{{qoute.image}}"/>
   <div class="card-title">{{qoute.category | uppercase}}</div>
-  <div class="card-subtitle">{{qoute.quotes.length}} Quotes</div>
+  <div class="card-subtitle">{{qoute.quoteObj.length}} Quotes</div>
 </ion-card>
 </ion-content>

@@ -1,5 +1,5 @@
-export interface Quote {
-    id: any;
-    person: any;
-    text: any;
+export interface quoteObj {
+    id: string;
+    person: string;
+    text: string;
 }
